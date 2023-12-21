@@ -1,7 +1,8 @@
 # Cyber Cloud Project
 
 ## Overview
-The Cyber Cloud project provides members of the college club with access to web-based tools. This documentation outlines the Docker containers used in the project and includes a section for Proxmox.
+The Cyber Cloud project, tailored for the CyberTitans club, serves as a comprehensive platform offering club members access to a suite of web-based tools crucial for engaging in Capture The Flag (CTF) activities. CTFs involve various challenges and require a diverse set of tools, and the Cyber Cloud project is designed to streamline access to these resources. This documentation provides insights into the Docker containers utilized in the project, as well as a dedicated section for Proxmox.
+
 
 ## Proxmox Section (To be filled)
 
