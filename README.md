@@ -1,12 +1,17 @@
 # Cyber Cloud Project
 
 ## Overview
-The Cyber Cloud project, tailored for the CyberTitans club, serves as a comprehensive platform offering club members access to a suite of web-based tools crucial for engaging in Capture The Flag (CTF) activities. CTFs involve various challenges and require a diverse set of tools, and the Cyber Cloud project is designed to streamline access to these resources. This documentation provides insights into the Docker containers utilized in the project, as well as a dedicated section for Proxmox.
+The Cyber Cloud project, tailored for the EFSC CyberTitans club, serves as a comprehensive platform offering club members access to a suite of web-based tools crucial for engaging in Capture The Flag (CTF) activities. CTFs involve various challenges and require a diverse set of tools, and the Cyber Cloud project is designed to streamline access to these resources. This documentation provides insights into the Docker containers utilized in the project, as well as a dedicated section for Proxmox.
 
 
-## Proxmox Section (To be filled)
+## Proxmox Section
+Cyber Cloud employs Proxmox VE as its level one hypervisor, orchestrating a dynamic infrastructure for virtualization. At its core, an Ubuntu Server 22.04.3 instance named "cybercloud" hosts the comprehensive Docker container stack, managed efficiently by Proxmox VE. This setup enables Cyber Cloud to provide a scalable and versatile platform for its web-based tools.
 
-[//]: # (Proxmox section to be added here)
+Within the Proxmox instance, a Windows Server 2019 operates as an Active Directory (AD) server, enhancing the educational environment in a college classroom. This AD server serves as a centralized authentication and authorization system, optimizing user access control. Additionally, a Linux Containers (LXC) container runs a Cloudflare Zero Trust Agent, adding an extra layer of security by enforcing zero-trust principles within the Cyber Cloud infrastructure. 
+
+![Proxmox UI](https://i.imgur.com/Wf3HDKI.png)
+
+Proxmox Virtual Environment (Proxmox VE) is a robust open-source platform that seamlessly integrates KVM for full virtualization and LXC for lightweight container-based virtualization. Aimed at enterprise-level virtualization, Proxmox VE simplifies the creation, management, and deployment of virtual environments. Its web-based interface provides an intuitive means to oversee VMs, containers, storage configurations, and network settings. Proxmox VE supports cluster setups for efficient load balancing and high availability across multiple nodes, enhancing scalability and system reliability. Storage options include local storage, shared network storage, and ZFS integration, offering flexibility to users based on performance and redundancy needs. Security features such as user authentication, role-based access control, and data encryption contribute to a robust and secure virtualization environment. 
 
 
 ## Docker
