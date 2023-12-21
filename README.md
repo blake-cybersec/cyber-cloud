@@ -9,12 +9,12 @@ The Cyber Cloud project, tailored for the CyberTitans club, serves as a comprehe
 [//]: # (Proxmox section to be added here)
 
 
-## Docker Containers
-
-### Docker
+## Docker
 Docker is a containerization platform that streamlines application development, deployment, and execution. At its core, Docker uses containers lightweight, standalone packages that encapsulate an application and its dependencies. These containers are created from Docker images, which serve as blueprints specifying the application's runtime, code, libraries, and system tools. A Dockerfile, a set of instructions defining the image, automates the image creation process. The Docker daemon manages these containers, while the Docker client enables users to interact with the daemon via command-line tools or APIs. Docker promotes consistency across different environments, providing isolation, portability, and efficient resource usage. It employs a layered file system for optimized image management and supports container orchestration tools for scaling and managing applications at scale, making it a widely adopted solution for building and running applications.
 
 In essence, Docker facilitates the packaging of applications into self-contained, reproducible units that can run consistently across various environments. Its containerization approach ensures efficiency, security, and scalability in the development and deployment lifecycle, making it a fundamental tool for modern software development.
+
+## Docker Containers
 
 ### aperisolve_back
 - **Status:** Running
